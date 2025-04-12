@@ -1,4 +1,4 @@
-# GomArey Social Media API
+# GMA Social Media API
 
 A modern social media GraphQL API built with Node.js, Express, Apollo Server, and Prisma.
 
@@ -21,7 +21,7 @@ A modern social media GraphQL API built with Node.js, Express, Apollo Server, an
 
 ## Overview
 
-GomArey is a full-featured social media API that enables developers to build social networking applications. It provides functionality for user authentication, posting content, following users, and liking posts.
+GMA is a full-featured social media API that enables developers to build social networking applications. It provides functionality for user authentication, posting content, following users, and liking posts.
 
 The API is built with:
 
@@ -93,7 +93,7 @@ frontend/
 
    ```bash
    git clone <repository-url>
-   cd gomarey
+   cd GMA
    ```
 
 2. Install dependencies
@@ -107,7 +107,7 @@ frontend/
 
    ```
    # Create .env file
-   DATABASE_URL="postgresql://username:password@localhost:5432/gomarey"
+   DATABASE_URL="postgresql://username:password@localhost:5432/GMA"
    JWT_SECRET="your-jwt-secret"
    ```
 
