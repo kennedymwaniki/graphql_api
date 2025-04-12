@@ -5,7 +5,7 @@ import { ApolloServer } from "@apollo/server";
 import { expressMiddleware } from "@apollo/server/express4";
 import { config } from "dotenv";
 import cors from "cors";
-// Update the import to use the locally generated Prisma client
+
 import { PrismaClient } from "./generated/prisma";
 import { authMiddleware } from "./middleware/auth";
 
